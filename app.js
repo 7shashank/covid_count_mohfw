@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-const port = 3002; // You can choose any available port
+const port = process.env.PORT || 3002; // You can choose any available port
 
 
 // Replace 'https://example.com/api/data' with the actual URL containing JSON data
